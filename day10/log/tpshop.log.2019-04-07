@@ -1,0 +1,432 @@
+2019-04-07 15:40:15,618 INFO [root] [base.py (__init__:13] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="b3cf2704-f254-4bcd-aaf1-dfcd96d1bd97")>
+2019-04-07 15:40:15,619 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 15:40:15,619 INFO [root] [base.py (base_click:26] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 15:40:15,619 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:20,482 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 15:40:20,482 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:40:20,483 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:20,514 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:20,591 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:20,591 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:20,605 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:20,691 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:20,692 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:20,716 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:20,823 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:20,823 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:20,945 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '安全退出') 元素，默认定位超时时间为: 2
+2019-04-07 15:40:25,411 INFO [root] [base.py (base_element_is_exist:53] - [base]: ('partial link text', '安全退出') 元素查找成功，存在页面
+2019-04-07 15:40:25,412 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '安全退出') 元素，默认定位超时时间为: 2
+2019-04-07 15:40:25,430 INFO [root] [base.py (base_element_is_exist:53] - [base]: ('partial link text', '安全退出') 元素查找成功，存在页面
+2019-04-07 15:40:25,430 INFO [root] [base.py (base_click:26] - [base]: 正在对:('partial link text', '安全退出') 元素实行点击事件
+2019-04-07 15:40:25,430 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '安全退出') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:25,595 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 15:40:25,595 INFO [root] [base.py (base_click:26] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 15:40:25,596 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,222 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名： 密码：123456, 验证码:8888
+2019-04-07 15:40:31,223 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名： 操作
+2019-04-07 15:40:31,223 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,265 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:31,323 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:31,323 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,339 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:31,403 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:31,403 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,414 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:31,522 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:31,522 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,678 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:31,678 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,827 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:31,827 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,959 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：, 验证码:8888
+2019-04-07 15:40:31,959 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:40:31,960 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:31,984 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:32,082 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码： 操作
+2019-04-07 15:40:32,082 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,121 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:32,201 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:32,201 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,212 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:32,282 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:32,282 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,399 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:32,399 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,470 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:32,470 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,595 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:
+2019-04-07 15:40:32,595 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:40:32,595 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,611 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:32,823 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:32,823 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,869 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:32,958 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码： 操作
+2019-04-07 15:40:32,958 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:32,999 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:33,094 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:33,094 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,241 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:33,241 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,279 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:33,279 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,402 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001112 密码：123456, 验证码:8888
+2019-04-07 15:40:33,403 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001112 操作
+2019-04-07 15:40:33,403 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,507 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:33,644 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:33,644 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,656 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:33,713 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:33,714 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,726 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:33,862 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:33,862 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:33,939 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:33,939 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:35,528 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:35,529 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:35,659 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：138000011112 密码：123456, 验证码:8888
+2019-04-07 15:40:35,659 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：138000011112 操作
+2019-04-07 15:40:35,659 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:35,680 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:35,859 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:35,859 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:35,870 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:35,974 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:35,974 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:35,991 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:36,087 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:36,087 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,209 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:36,209 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,259 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:36,259 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,352 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：1234566, 验证码:8888
+2019-04-07 15:40:36,353 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:40:36,353 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,481 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:36,598 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：1234566 操作
+2019-04-07 15:40:36,598 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,611 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:36,682 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:40:36,682 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,715 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:36,771 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:36,772 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:36,859 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:36,859 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,275 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:39,275 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,348 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:88889
+2019-04-07 15:40:39,348 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:40:39,348 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,450 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:40:39,594 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:40:39,594 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,603 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:40:39,698 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：88889 操作
+2019-04-07 15:40:39,699 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,714 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:40:39,799 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:40:39,799 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:39,882 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:40:39,882 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:40:40,414 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:40:40,414 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:42,840 INFO [root] [base.py (__init__:13] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="a8b090d0-aec4-4b34-93b1-eef0a95e4e40")>
+2019-04-07 15:47:42,840 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 15:47:42,840 INFO [root] [base.py (base_click:26] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 15:47:42,841 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:43,172 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：1234566, 验证码:8888
+2019-04-07 15:47:43,173 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:47:43,173 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:46,192 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:47:46,307 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：1234566 操作
+2019-04-07 15:47:46,308 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:46,344 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:47:46,408 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:47:46,409 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:46,422 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:47:46,507 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:47:46,507 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:46,663 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:47:46,663 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:48,311 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:47:48,312 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:48,531 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:88889
+2019-04-07 15:47:48,532 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:47:48,532 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:48,545 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:47:48,717 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:47:48,717 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:48,730 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:47:48,850 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：88889 操作
+2019-04-07 15:47:48,850 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:48,873 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:47:48,959 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:47:48,959 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:49,052 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:47:49,053 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:47:50,711 INFO [root] [base.py (base_get_image:46] - [base]: 断言出错，调用截图
+2019-04-07 15:47:51,022 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:47:51,022 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:38,955 INFO [root] [base.py (__init__:13] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="ceecef21-ff2c-46fb-ba67-c725922b92ae")>
+2019-04-07 15:49:38,956 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 15:49:38,956 INFO [root] [base.py (base_click:26] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 15:49:38,956 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:42,258 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：1234566, 验证码:8888
+2019-04-07 15:49:42,258 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:49:42,258 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:42,350 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:49:42,473 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：1234566 操作
+2019-04-07 15:49:42,474 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:42,498 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:49:42,567 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 15:49:42,568 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:42,579 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:49:42,652 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:49:42,652 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:43,344 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:49:43,345 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:44,941 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:49:44,941 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:45,037 INFO [root] [page_login.py (page_login:57] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:88889
+2019-04-07 15:49:45,037 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 15:49:45,037 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:45,077 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 15:49:45,267 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 15:49:45,267 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:45,277 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 15:49:45,349 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：88889 操作
+2019-04-07 15:49:45,350 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:45,383 INFO [root] [base.py (base_input:34] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 15:49:45,478 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 15:49:45,478 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:45,587 INFO [root] [base.py (base_get_text:41] - [base]: 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-04-07 15:49:45,587 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-content') 元素，默认定位超时时间为: 30
+2019-04-07 15:49:46,126 INFO [root] [base.py (base_get_image:46] - [base]: 断言出错，调用截图
+2019-04-07 15:49:46,413 ERROR [root] [test_login.py (test_login:72] - 错误：'验证码错误' != '验证码错误1'
+- 验证码错误
++ 验证码错误1
+?      +
+
+2019-04-07 15:49:46,413 INFO [root] [base.py (base_click:26] - [base]: 正在对:('css selector', '.layui-layer-btn0') 元素实行点击事件
+2019-04-07 15:49:46,414 INFO [root] [base.py (base_find:18] - [base]: 正在定位:('css selector', '.layui-layer-btn0') 元素，默认定位超时时间为: 30
+2019-04-07 17:17:46,764 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="af989dde-2d73-4ff0-9e2f-c606a0073f66")>
+2019-04-07 17:17:46,765 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="af989dde-2d73-4ff0-9e2f-c606a0073f66")>
+2019-04-07 17:17:46,765 INFO [root] [page_login.py (page_login_success:69] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:17:46,765 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:17:46,765 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:00,965 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="a19aecdc-e181-4c4d-9308-cbb2079f9414")>
+2019-04-07 17:19:00,966 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="a19aecdc-e181-4c4d-9308-cbb2079f9414")>
+2019-04-07 17:19:00,966 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:19:00,966 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:19:00,967 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:04,031 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:19:04,031 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:19:04,032 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:04,089 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:19:04,171 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:19:04,171 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:04,183 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:19:04,277 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:19:04,278 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:04,300 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:19:04,388 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:19:04,388 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:06,548 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:06,575 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:19:06,665 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:19:06,665 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:11,368 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:19:11,368 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:19:11,487 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:19:11,487 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:32,678 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="efd1523c-62bf-4ac2-9017-7f4a78b58dda")>
+2019-04-07 17:21:32,679 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="efd1523c-62bf-4ac2-9017-7f4a78b58dda")>
+2019-04-07 17:21:32,679 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:21:32,679 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:21:32,680 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:33,079 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:21:33,080 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:21:33,080 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:35,854 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:21:35,972 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:21:35,973 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:36,004 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:21:36,083 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:21:36,083 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:36,092 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:21:36,199 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:21:36,199 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:38,361 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:40,964 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:21:41,071 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:21:41,071 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:44,525 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:21:44,525 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:21:44,728 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:21:44,728 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:23,536 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="999dccb0-794b-45b6-a2ba-91e9789453c1")>
+2019-04-07 17:23:23,537 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="999dccb0-794b-45b6-a2ba-91e9789453c1")>
+2019-04-07 17:23:23,538 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:23:23,538 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:23:23,539 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:23,782 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:23:23,783 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:23:23,783 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:28,530 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:23:28,643 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:23:28,644 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:28,661 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:23:28,776 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:23:28,777 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:28,792 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:23:28,870 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:23:28,870 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:31,046 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:33,269 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:23:33,394 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:23:33,395 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:35,447 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:23:35,448 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:23:37,635 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:23:37,635 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:08,796 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="2f6bc314-47e3-4217-bfbc-b142bfbf653e")>
+2019-04-07 17:28:08,797 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="2f6bc314-47e3-4217-bfbc-b142bfbf653e")>
+2019-04-07 17:28:08,797 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:28:08,797 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:28:08,797 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:09,219 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:28:09,219 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:28:09,219 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:11,926 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:28:12,001 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:28:12,001 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:12,039 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:28:12,102 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:28:12,103 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:12,120 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:28:12,186 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:28:12,187 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:14,337 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:16,850 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:28:16,962 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:28:16,963 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:20,383 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:28:20,383 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:28:20,523 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:28:20,524 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:10,832 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="37a32c9e-af3b-42f7-b331-5d44bec378a3")>
+2019-04-07 17:32:10,832 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="37a32c9e-af3b-42f7-b331-5d44bec378a3")>
+2019-04-07 17:32:10,833 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:32:10,833 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:32:10,833 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:13,245 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:32:13,245 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:32:13,245 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:13,288 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:32:13,360 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:32:13,360 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:13,380 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:32:13,443 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:32:13,444 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:13,455 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:32:13,528 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:32:13,528 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:15,634 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:17,361 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:32:17,450 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:32:17,451 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:19,628 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:32:19,628 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:32:24,738 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:32:24,738 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:35,484 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="91f2f455-1dee-4be5-92bf-88efbc30028d")>
+2019-04-07 17:36:35,485 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="91f2f455-1dee-4be5-92bf-88efbc30028d")>
+2019-04-07 17:36:35,485 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:36:35,485 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:36:35,486 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:40,295 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:36:40,295 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:36:40,295 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:40,326 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:36:40,399 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:36:40,399 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:40,412 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:36:40,486 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:36:40,486 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:40,502 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:36:40,562 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:36:40,562 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:42,680 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:44,477 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:36:44,643 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:36:44,643 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:49,115 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:36:49,115 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:54,206 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:36:54,206 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:36:56,875 INFO [root] [base.py (base_find:20] - [base]: 正在定位:layui-layer-iframe1 元素，默认定位超时时间为: 30
+2019-04-07 17:38:33,082 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="b89b68c0-ed78-4af7-9a18-7049d126d999")>
+2019-04-07 17:38:33,082 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="b89b68c0-ed78-4af7-9a18-7049d126d999")>
+2019-04-07 17:38:33,083 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:38:33,083 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:38:33,083 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:35,927 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:38:35,928 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:38:35,928 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:36,391 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:38:36,470 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:38:36,470 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:36,480 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:38:36,564 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:38:36,564 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:36,578 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:38:36,637 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:38:36,637 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:38,767 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:40,484 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:38:40,558 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:38:40,558 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:42,940 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:38:42,941 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:48,040 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:38:48,040 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:49,528 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#layui-layer-iframe1') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:51,896 INFO [root] [base.py (base_get_text:43] - [base]: 正在获取:('css selector', '.conect-title>span') 元素文本值
+2019-04-07 17:38:51,896 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.conect-title>span') 元素，默认定位超时时间为: 30
+2019-04-07 17:38:53,348 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.layui-layer-close') 元素实行点击事件
+2019-04-07 17:38:53,349 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.layui-layer-close') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:41,946 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="f7b6a749-a516-4530-9dcf-0bcb16f057d8")>
+2019-04-07 17:41:41,946 INFO [root] [base.py (__init__:15] - [base]: 正在获取初始化driver对象:<selenium.webdriver.firefox.webdriver.WebDriver (session="f7b6a749-a516-4530-9dcf-0bcb16f057d8")>
+2019-04-07 17:41:41,947 INFO [root] [page_login.py (page_click_login_link:12] - [page_loging] 执行：('partial link text', '登录') 点击链接操作
+2019-04-07 17:41:41,947 INFO [root] [base.py (base_click:28] - [base]: 正在对:('partial link text', '登录') 元素实行点击事件
+2019-04-07 17:41:41,947 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('partial link text', '登录') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:42,199 INFO [root] [page_login.py (page_login_success:71] - [page_loging] 正在执行登录操作, 用户名：13800001111 密码：123456, 验证码:8888
+2019-04-07 17:41:42,199 INFO [root] [page_login.py (page_input_username:17] - [page_loging] 对：('css selector', '#username') 元素 输入用户名：13800001111 操作
+2019-04-07 17:41:42,199 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#username') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:45,056 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#username') 元素实行清空
+2019-04-07 17:41:45,195 INFO [root] [page_login.py (page_input_pwd:22] - [page_loging] 对：('css selector', '#password') 元素 输入密码：123456 操作
+2019-04-07 17:41:45,196 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#password') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:45,243 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#password') 元素实行清空
+2019-04-07 17:41:45,330 INFO [root] [page_login.py (page_input_verify_code:27] - [page_loging] 对：('css selector', '#verify_code') 元素 输入验证码：8888 操作
+2019-04-07 17:41:45,330 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#verify_code') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:45,348 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#verify_code') 元素实行清空
+2019-04-07 17:41:45,437 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.J-login-submit') 元素实行点击事件
+2019-04-07 17:41:45,437 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.J-login-submit') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:47,620 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#q') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:49,798 INFO [root] [base.py (base_input:36] - [base]: 正在对:('css selector', '#q') 元素实行清空
+2019-04-07 17:41:49,939 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.ecsc-search-button') 元素实行点击事件
+2019-04-07 17:41:49,939 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.ecsc-search-button') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:52,384 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.p-btn>a') 元素实行点击事件
+2019-04-07 17:41:52,385 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.p-btn>a') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:52,549 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '#join_cart') 元素实行点击事件
+2019-04-07 17:41:52,553 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#join_cart') 元素，默认定位超时时间为: 30
+2019-04-07 17:41:59,267 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '#layui-layer-iframe1') 元素，默认定位超时时间为: 30
+2019-04-07 17:42:01,312 INFO [root] [base.py (base_get_text:43] - [base]: 正在获取:('css selector', '.conect-title>span') 元素文本值
+2019-04-07 17:42:01,312 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.conect-title>span') 元素，默认定位超时时间为: 30
+2019-04-07 17:42:01,408 INFO [root] [base.py (base_click:28] - [base]: 正在对:('css selector', '.layui-layer-close') 元素实行点击事件
+2019-04-07 17:42:01,408 INFO [root] [base.py (base_find:20] - [base]: 正在定位:('css selector', '.layui-layer-close') 元素，默认定位超时时间为: 30
